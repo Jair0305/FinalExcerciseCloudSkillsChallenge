@@ -62,6 +62,9 @@ function App() {
     setIsGenerating(false); // Set image generation indicator to false
   };
 
+  // Clear Browserslist caches
+  browserslist.clearCaches();
+
   return (
     <div>
       <h1>Title</h1>
